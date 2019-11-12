@@ -1,7 +1,9 @@
-<img src="https://media.giphy.com/media/26FL0TNosgVLTu7Fm/giphy.gif" width="100%">
+
 
 # whoStoleSimonsLunchbox
 An assignment about who stole Simons lunchbox
+
+<img src="https://media.giphy.com/media/26FL0TNosgVLTu7Fm/giphy.gif" width="100%">
 
 # Plot
 

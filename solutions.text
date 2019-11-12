@@ -1,0 +1,30 @@
+SELECT * FROM persons
+INNER JOIN interviews
+ON persons.id = interviews.person_id
+WHERE name ="Ursuline Titmarsh";
+
+
+SELECT * FROM description
+INNER JOIN interviews
+ON interviews.person_id = description.id
+ WHERE hair_color ="Brown";
+
+
+SELECT * FROM (SELECT persons.id, persons.name, previous_crimes.lunch_theft
+FROM persons
+INNER JOIN previous_crimes
+ON persons.id=previous_crimes.id) AS table1 
+INNER JOIN description 
+ON description.id=table1.id;
+
+
+
+
+SELECT * FROM persons WHERE id="10";
+
+
+
+SELECT hair_color,COUNT (hair_color) as antal
+FROM description
+GROUP BY hair_color;
+
